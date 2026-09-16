@@ -1,11 +1,15 @@
-Portfólio SENAI — UC Versionamento
-Repositório de trabalho da Unidade Curricular Versionamento (16 h)
+# Portfólio SENAI — UC Versionamento
+
+Repositório de trabalho da Unidade Curricular **Versionamento** (16 h)  
 Curso: Qualificação Profissional — Programador Front-End.
 
-Objetivo
+## Objetivo
+
 Praticar Git em um projeto real de interface: clonar, commitar, ramificar, mesclar, marcar versões e ignorar arquivos.
 
-Estrutura
+## Estrutura
+
+```
 repo-aula-versionamento/
 ├── README.md
 ├── .gitignore
@@ -19,13 +23,21 @@ repo-aula-versionamento/
 │   ├── css/style.css
 │   └── js/main.js
 └── assets/img/
-Comandos iniciais
+```
+
+## Comandos iniciais
+
+```bash
 git status
 git log --oneline
 git branch -a
-Regras da turma
-Commits em português, no imperativo: Adiciona seção de habilidades.
-Uma alteração lógica por commit.
-Branch de feature: feature/nome-curto.
-Nunca commitar node_modules, .env ou arquivo pessoal.
-Leia CONTRIBUTING.md e docs/ antes da primeira tarefa.
+```
+
+## Regras da turma
+
+1. Commits em português, no imperativo: `Adiciona seção de habilidades`.
+2. Uma alteração lógica por commit.
+3. Branch de feature: `feature/nome-curto`.
+4. Nunca commitar `node_modules`, `.env` ou arquivo pessoal.
+
+Leia `CONTRIBUTING.md` e `docs/` antes da primeira tarefa.
